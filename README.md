@@ -152,3 +152,8 @@ tipotexto{
 </div>
 ```
 
+**Unidad de medida de p:** 
+
+VW: es el largo de la pantalla
+
+VH: es el alto de la pantalla 
