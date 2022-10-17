@@ -43,3 +43,18 @@ color:red;
 <p class= titulo> cambia por clase el que puse fue (titulo)</p>
 ```
 
+**Id #:** este selector selecciona por un ID, y como cualquier ID este tiene que ser único solo lo puede tener uno solo elemento, es como cualquier CC, TI, y este se arma con un (#)
+
+```css
+#hola{
+    color:red;
+}
+```
+
+ HTML:
+
+```html
+<h2 id="hola"> mi nombre es cristian andres silva muñoz</h2>
+<p id="hola"> cambia por clase el que puse fue (titulo)</p>
+```
+
