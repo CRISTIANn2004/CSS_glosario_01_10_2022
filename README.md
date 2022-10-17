@@ -1,6 +1,6 @@
 # Glosario de css
 
-#### **Estructura** 
+### **Estructura** 
 
 ```css
 selector{
@@ -16,7 +16,7 @@ selector{
 
    
 
-#### Selectores:
+### Selectores:
 
 **Universal *:** este selector es el universal agarra todo lo que hay en el HTML
 
@@ -92,3 +92,14 @@ HTML:
 <p> cambia por clase el que puse fue (titulo)</p>
 ```
 
+### **Especificidad:** 
+
+la especificidad es la lógica que tiene nuestro pc, en como hacen algo mas relevante de las demás cosas, si le hacemos 5 cambios a nuestro css el va dejar el ultimo cambio que le hicimos ya que fue lo mas importante que hicimos en la lógica del pc
+
+- Quiero que le de prioridad a un cambio, y que siga : por eso existe la jerarquía, donde !important es al que mas alto esta, y pseudo-lenguaje es el menos importante      
+
+  | lo mas importante |                 |                     |                                  |   menos menos importante    |
+  | :---------------: | --------------- | ------------------- | -------------------------------- | :-------------------------: |
+  |    !important     | estilo en línea | id(identificadores) | clases, pseudo-clases, atributos | elementos, pseudo-elementos |
+
+  
