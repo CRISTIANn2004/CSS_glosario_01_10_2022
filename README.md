@@ -39,8 +39,9 @@ color:red;
   HTML:
 
 ```html
-<h2 class= titulo> mi nombre es cristian andres silva muñoz</h2>
-<p class= titulo> cambia por clase el que puse fue (titulo)</p>
+<h1>hola me llamo cristian</h1>
+     <h2 class= "titulo"> mi nombre es cristian andres silva muñoz</h2>
+<p class= "titulo"> cambia por clase el que puse fue (titulo)</p>
 ```
 
 **Id #:** este selector selecciona por un ID, y como cualquier ID este tiene que ser único solo lo puede tener uno solo elemento, es como cualquier CC, TI, y este se arma con un (#)
@@ -54,7 +55,24 @@ color:red;
  HTML:
 
 ```html
-<h2 id="hola"> mi nombre es cristian andres silva muñoz</h2>
+<h1>hola me llamo cristian</h1>
+     <h2 id="hola"> mi nombre es cristian andres silva muñoz</h2>
 <p id="hola"> cambia por clase el que puse fue (titulo)</p>
+```
+
+**Por atributo []:** este selector selecciona por atributo (<h2 perro= "pug"> </h2>),  y este se arma con un unos corchetes [] 
+
+```css
+[perro ="pug"]{
+    color:red;
+}
+```
+
+HTML:
+
+```html
+<h1>hola me llamo cristian</h1>
+    <h2 perro="pug"> mi nombre es cristian andres silva muñoz</h2>
+<p perro="pug"> cambia por clase el que puse fue (titulo)</p>
 ```
 
