@@ -103,3 +103,29 @@ la especificidad es la lógica que tiene nuestro pc, en como hacen algo mas rele
   |    !important     | estilo en línea | id(identificadores) | clases, pseudo-clases, atributos | elementos, pseudo-elementos |
 
   
+
+### **Unidades:**
+
+existen dos tipos de unidades las relativas y las fijas  
+
+**Relativas:** las unidades relativas son las que dependen de algo, las que son variables (celulares, tableds etc)
+
+**Fijas:** son las que son pues fijas (px, ml, puntos, cm) 
+
+**Tipo grafías fija:** 
+
+font-size: cambia el tamaño de las letras 
+
+```css
+.tipotexto{
+    font-size:50px;
+}
+```
+
+HTML:
+
+```html
+<h2 class="tipotexto">hola me llamo cristian</h2>
+```
+
+ 
