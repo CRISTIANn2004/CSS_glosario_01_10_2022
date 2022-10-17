@@ -60,7 +60,7 @@ color:red;
 <p id="hola"> cambia por clase el que puse fue (titulo)</p>
 ```
 
-**Por atributo []:** este selector selecciona por atributo (<h2 perro= "pug"> </h2>),  y este se arma con un unos corchetes [] 
+**Por atributo []:** este selector selecciona por atributo (<h2 perro= "pug"> </h2>),  y este se arma con un unos corchetes []
 
 ```css
 [perro ="pug"]{
@@ -74,5 +74,21 @@ HTML:
 <h1>hola me llamo cristian</h1>
     <h2 perro="pug"> mi nombre es cristian andres silva muñoz</h2>
 <p perro="pug"> cambia por clase el que puse fue (titulo)</p>
+```
+
+**Descendiente:** este selector selecciona, las etiquetas, eventos, clases etc, que estén dentro de un contenedor puede ser una etiqueta,  (<h2> <p> acá selecciona a los p  </p> </h2>) y se arma colocando primero el contendor (h2)y luego lo que queremos seleccionar (p) 
+
+```css
+h2 p {
+    color: red;
+}
+```
+
+HTML:
+
+```html
+<h2><p> hola me llamo cristian</p></h2>
+    <h2><b> mi nombre es cristian andres silva muñoz</b></h2>
+<p> cambia por clase el que puse fue (titulo)</p>
 ```
 
