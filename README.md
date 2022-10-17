@@ -129,3 +129,26 @@ HTML:
 ```
 
  
+
+**Tipo grafías relativa:** 
+
+font-size: 5em ; donde cada em son las medidas que nosotros le pongamos 
+
+```css
+tipotexto{
+    font-size: 20px;
+}
+.tipotexto2{
+    font-size: 5em;
+
+}
+```
+
+**HTML:** donde el  class="tipotexto" le esta dando la unidad de medida de (em) a class="tipotexto2" 
+
+```html
+<div class="tipotexto">
+        <h2 class="tipotexto2">hola me llamo cristian</h2>
+</div>
+```
+
